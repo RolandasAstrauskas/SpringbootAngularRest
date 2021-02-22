@@ -1,7 +1,7 @@
 # SpringbootAngularRest
 Project using Springboot, Angular, Rest for search from H2
 
-Dependency - JPA, H, Springboot web, Logging, Log4j2, Springboot devtools, Assertj core, Junit.
+Dependency - JPA, H2, Springboot web, Logging, Log4j2, Springboot devtools, Assertj core, Junit.
 
 Backend
 -------------------
