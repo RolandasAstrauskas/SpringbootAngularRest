@@ -3,7 +3,7 @@ Project using Springboot, Angular, Rest for search from H2
 
 Dependency - JPA, H, Springboot web, Logging, Log4j2, Springboot devtools, Assertj core, Junit.
 
-Backended
+Backend
 -------------------
 Controller - use @RestController, @CrossOrigin. Find client by ID or birthday and return list of cleints.
 Repository - @Repository. extends JPA.
