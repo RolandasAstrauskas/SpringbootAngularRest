@@ -21,7 +21,7 @@ public class ClientService implements ServiceInterface{
     private ClientRepository clientRepository;
 
 
-
+    @Override
     public List<Client> findClientById(String clientId) {
         logger.info("Searching for the client by id");
         if(clientId.length() != 11){
