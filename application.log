@@ -1,0 +1,100 @@
+2021-02-22 09:24:32.420  INFO 7948 --- [restartedMain] c.e.a.Application                        : Starting Application using Java 11.0.9.1 on LAPTOP-JC7MH176 with PID 7948 (C:\Users\37068\Desktop\Project\Ergo\app\target\classes started by 37068 in C:\Users\37068\Desktop\Project\Ergo\app)
+2021-02-22 09:24:32.435  INFO 7948 --- [restartedMain] c.e.a.Application                        : No active profile set, falling back to default profiles: default
+2021-02-22 09:24:32.513  INFO 7948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-22 09:24:32.513  INFO 7948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-22 09:24:33.388  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 09:24:33.388  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-22 09:24:33.435  INFO 7948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.app.repository.ClientRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-02-22 09:24:33.435  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 0 JDBC repository interfaces.
+2021-02-22 09:24:33.466  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 09:24:33.466  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-22 09:24:33.513  INFO 7948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-02-22 09:24:34.560  INFO 7948 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-22 09:24:34.576  INFO 7948 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-22 09:24:34.576  INFO 7948 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-22 09:24:34.716  INFO 7948 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-22 09:24:34.716  INFO 7948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2203 ms
+2021-02-22 09:24:34.794  INFO 7948 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-22 09:24:35.067  INFO 7948 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-22 09:24:35.083  INFO 7948 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4edc0c47-28cc-4087-9b4c-52b2b09c19bf'
+2021-02-22 09:24:35.333  INFO 7948 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 09:24:35.442  INFO 7948 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-22 09:24:35.630  INFO 7948 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 09:24:35.802  INFO 7948 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-22 09:24:36.583  INFO 7948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 09:24:36.598  INFO 7948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 09:24:36.614  INFO 7948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-22 09:24:37.145  WARN 7948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 09:24:37.286  INFO 7948 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 09:24:46.748  INFO 7948 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 09:24:46.764  INFO 7948 --- [restartedMain] c.e.a.Application                        : Started Application in 15.05 seconds (JVM running for 16.389)
+2021-02-22 09:25:54.525  INFO 7948 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 09:25:54.526  INFO 7948 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-22 09:25:54.528  INFO 7948 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-02-22 09:25:54.588  INFO 7948 --- [http-nio-8080-exec-1] c.e.a.s.ClientService                    : Searching for the client by date of birth
+2021-02-22 09:25:54.765  INFO 7948 --- [http-nio-8080-exec-1] c.e.a.s.ClientService                    : Return founded list.
+2021-02-22 09:26:00.587  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Searching for the client by date of birth
+2021-02-22 09:26:00.590  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.590  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.590  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.590  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.590  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:26:00.591  INFO 7948 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Return founded list.
+2021-02-22 09:26:04.168  INFO 7948 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Searching for the client by id
+2021-02-22 09:26:04.186  INFO 7948 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Id founded successful!
+2021-02-22 09:28:11.324  INFO 15256 --- [restartedMain] c.e.a.Application                        : Starting Application using Java 11.0.9.1 on LAPTOP-JC7MH176 with PID 15256 (C:\Users\37068\Desktop\Project\Ergo\app\target\classes started by 37068 in C:\Users\37068\Desktop\Project\Ergo\app)
+2021-02-22 09:28:11.340  INFO 15256 --- [restartedMain] c.e.a.Application                        : No active profile set, falling back to default profiles: default
+2021-02-22 09:28:11.418  INFO 15256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-22 09:28:11.418  INFO 15256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-22 09:28:12.496  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 09:28:12.496  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-02-22 09:28:12.543  INFO 15256 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.app.repository.ClientRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-02-22 09:28:12.558  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 0 JDBC repository interfaces.
+2021-02-22 09:28:12.558  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-22 09:28:12.574  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-22 09:28:12.605  INFO 15256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2021-02-22 09:28:14.183  INFO 15256 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-02-22 09:28:14.199  INFO 15256 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-02-22 09:28:14.199  INFO 15256 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-22 09:28:14.402  INFO 15256 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-22 09:28:14.402  INFO 15256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2984 ms
+2021-02-22 09:28:14.495  INFO 15256 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-22 09:28:14.777  INFO 15256 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-02-22 09:28:14.777  INFO 15256 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dcc5b207-912a-4812-aa2a-96594ef5f052'
+2021-02-22 09:28:15.033  INFO 15256 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-22 09:28:15.220  INFO 15256 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-22 09:28:15.424  INFO 15256 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-22 09:28:15.580  INFO 15256 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-22 09:28:16.377  INFO 15256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-22 09:28:16.408  INFO 15256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-22 09:28:16.486  INFO 15256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-22 09:28:17.080  WARN 15256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-22 09:28:17.251  INFO 15256 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-22 09:28:28.325  INFO 15256 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-22 09:28:28.356  INFO 15256 --- [restartedMain] c.e.a.Application                        : Started Application in 17.97 seconds (JVM running for 19.54)
+2021-02-22 09:29:29.957  INFO 15256 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-22 09:29:29.957  INFO 15256 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-02-22 09:29:29.959  INFO 15256 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-02-22 09:29:30.026  INFO 15256 --- [http-nio-8080-exec-1] c.e.a.s.ClientService                    : Searching for the client by date of birth
+2021-02-22 09:29:30.201  INFO 15256 --- [http-nio-8080-exec-1] c.e.a.s.ClientService                    : Return founded list.
+2021-02-22 09:29:30.433  INFO 15256 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Searching for the client by date of birth
+2021-02-22 09:29:30.437  INFO 15256 --- [http-nio-8080-exec-2] c.e.a.s.ClientService                    : Return founded list.
+2021-02-22 09:29:35.911  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Searching for the client by date of birth
+2021-02-22 09:29:35.913  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.914  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Checking for  matching date of birth from database
+2021-02-22 09:29:35.915  INFO 15256 --- [http-nio-8080-exec-3] c.e.a.s.ClientService                    : Return founded list.
+2021-02-22 09:29:40.001  INFO 15256 --- [http-nio-8080-exec-4] c.e.a.s.ClientService                    : Searching for the client by id
+2021-02-22 09:29:40.021  INFO 15256 --- [http-nio-8080-exec-4] c.e.a.s.ClientService                    : Id founded successful!

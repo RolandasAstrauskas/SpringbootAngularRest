@@ -1,0 +1,18 @@
+<table id="customers">
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let client of clients">
+    <td *ngFor="let col of index">
+      {{client[col]}}
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+

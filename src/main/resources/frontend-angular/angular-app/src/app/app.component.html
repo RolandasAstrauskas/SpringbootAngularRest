@@ -1,0 +1,13 @@
+<hr>
+<html>
+<div>
+  <app-button (event)="receiveData($event)"></app-button>
+
+  <app-buttonId (event)="receiveDataId($event)"></app-buttonId>
+</div>
+<hr>
+<div>
+  <app-table [data]="data" [dataId]="dataId"></app-table>
+</div>
+</html>
+
